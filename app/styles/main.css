@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(62, 62, 199);
+  min-height: 100vh;
+}
+
+#main-navigation {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#main-navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-item a:hover,
+#nav-item a.active {
+  color: #f8fc03;
+}
